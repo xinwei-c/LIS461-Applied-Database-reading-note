@@ -79,10 +79,9 @@ The part covers "Hernandez, Michael J. (2020). Database Design for Mere Mortals:
 		- modeling and database structure using data-modeling method, such as entity-relationship (ER) diagramming, semantic-object modeling, object-role modeling, or UML modeling. Provide a visually representing various aspects of the data structure, such as tables.
   
 ![Example of a basic ER diagram](example-of-a-basic-ER-diagram.png)
-
-		- rectangles represent two tables called AGENTS and CLIENTS
-		- the diamond represent a relationship between these two tables, and the "1:N" within the diamond indicates that it's a one-to many relationship
-		- the vertical line next to the AGENTS table indicate that a client must be connect with only one gent, and the circle and "crow's foot" next to the CLIENTS table indicates that an agent does not have to be associated with a client, but can have many
+	- rectangles represent two tables called AGENTS and CLIENTS
+	- the diamond represent a relationship between these two tables, and the "1:N" within the diamond indicates that it's a one-to many relationship
+	- the vertical line next to the AGENTS table indicate that a client must be connect with only one gent, and the circle and "crow's foot" next to the CLIENTS table indicates that an agent does not have to be associated with a client, but can have many
 		- Each tables is assigned a primary key, various levels of data integrity are identified and implemented. 
 		- Relationships are established via *foreign* keys
 		- After the initial relationships have been established according to data model, the database is ready to go through the normalization phase.
