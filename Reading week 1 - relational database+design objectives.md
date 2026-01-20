@@ -78,7 +78,7 @@ The part covers "Hernandez, Michael J. (2020). Database Design for Mere Mortals:
 	- Data modeling
 		- modeling and database structure using data-modeling method, such as entity-relationship (ER) diagramming, semantic-object modeling, object-role modeling, or UML modeling. Provide a visually representing various aspects of the data structure, such as tables.
   
-  - ![Example of a basic ER diagram](example-of-a-basic-ER-diagram.png)
+![Example of a basic ER diagram](example-of-a-basic-ER-diagram.png)
 
 		- rectangles represent two tables called AGENTS and CLIENTS
 		- the diamond represent a relationship between these two tables, and the "1:N" within the diamond indicates that it's a one-to many relationship
