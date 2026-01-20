@@ -23,6 +23,7 @@ The part covers "Hernandez, Michael J. (2020). Database Design for Mere Mortals:
 		- for instance, the CLIENTS and AGENTS tables share a one-to-many relationship and related via an AGENT ID field
     
 ![Relation in database](Relation-in-database.png)
+
 ### retrieve data
 - retrieve data in a relational database by using structured query language (SQL)
 ### advantages of a relational database
