@@ -76,9 +76,10 @@ The part covers "Hernandez, Michael J. (2020). Database Design for Mere Mortals:
 	- requirement analysis
 		- an examination of business being modeled, interviewed with users and management to access the current system and to analyze future needs, and an assessment of information requirement for the business as a whole
 	- Data modeling
-		- modeling and database structure using data-modeling method, such as entity-relationship (ER) diagramming, semantic-object modeling, object-role modeling, or UML modeling. Provide a visually representing various aspects of the data structure, such as tables.
+		- modeling and database structure using data-modeling method, such as entity-relationship (ER) diagramming, semantic-object modeling, object-role modeling, or UML modeling. Provide a visually representing various aspects of the data structure, such as tables. ![Example of a basic ER diagram](example-of-a-basic-ER-diagram.png)
   
-![Example of a basic ER diagram](example-of-a-basic-ER-diagram.png)
+
+
 	- rectangles represent two tables called AGENTS and CLIENTS
 	- the diamond represent a relationship between these two tables, and the "1:N" within the diamond indicates that it's a one-to many relationship
 	- the vertical line next to the AGENTS table indicate that a client must be connect with only one gent, and the circle and "crow's foot" next to the CLIENTS table indicates that an agent does not have to be associated with a client, but can have many
