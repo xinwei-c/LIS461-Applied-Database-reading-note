@@ -1,5 +1,7 @@
+# Objectives
+The part covers "Hernandez, Michael J. (2020). Database Design for Mere Mortals:4th Edition. Addison-Wesley" chapter 1 and chapter 2
 
-#### What is database
+# What is database
 - two types of databases
 	- operational database
 		- used on online transaction processing (OLTP)
@@ -11,7 +13,7 @@
 			- store static data, and the data is never modified
 			- chemical labs, geological companies, and marketing analysis
 			- use operational database as their main database
-#### Relational database
+### Relational database
 - Dr. Edgar F. Codd, was a IBM research scientist
 	- A relational model of data for large shared databanks in June of 1970
 - A relational database stores data in relations, and the user would perceive as tables.
@@ -19,29 +21,29 @@
 - 2 characteristics of a relational database that allow the data to exist independently
 	- categorizes relationships as one-to-one, one-to-many, many-to-many
 		- for instance, the CLIENTS and AGENTS tables share a one-to-many relationship and related via an AGENT ID field![[Relation in database.png]]
-#### retrieve data
+### retrieve data
 - retrieve data in a relational database by using structured query language (SQL)
-#### advantages of a relational database
+### advantages of a relational database
 - built-in multilevel integrity: data integrity is built into database at the field level to ensure the accuracy of the data, at the table level to sure that records are not duplicated and to detect missing primary key values
 - logical and physical data independence from database applications: neither changes a user makes to the logical design of the database nor changes a database software vendor 
 - guaranteed data consistency and accuracy: data is consistent and accurate due to the various levels of integrity you can impost within the database
 - easy data retrieval: a user can retrieve data either from a particular table or from any number of related tables within the tables.
-#### relational database management systems
+### relational database management systems
 - relational database management system (RDBMS) is a software application program you use to create, maintain, modify and manipulate a relational database.
 - provide the tools you need to create a wide variety of end-user application that interact with the data stored in the database.
 
-### Design Objectives
-#### why should you be concerned with database design
+## Design Objectives
+### why should you be concerned with database design
 - the tools like RDBMS does not actually help you design a database -- they merely help you create the physical tables you will include in the table
 - we would better to use these tools after creating the logical database structure
 - RDBMS provide the design tools and the sample databases to help minimize the time it takes you to implement the database structure physically.
 - **crucial to the consistency, integrity and accuracy** in the database
-#### The importance of theory
+### The importance of theory
 - What is *theory*: general propositions used as principles and not "conjectures or proposals" 
 - a number of major disciples have some types of theoretical basis.
 - The relational database is based on **set theory** and **first-order predicate logic**
 
-#### The advantage of learning a good design methodology
+### The advantage of learning a good design methodology
 - by trial and error
 - advantages
 	- gives the skills to design a sound database structure 
@@ -50,7 +52,7 @@
 	- helps you keep you missteps and design reiterations to a minimum
 	- make the design easier and reduce the amount of time
 	- use the RDBMS application system more fully and effectively
-#### objectives of good design
+### objectives of good design
 - support both required and ad hoc information retrieval 
 - the tables are constructed properly and effectively. Each table in the database represents a single subject and is composed of relatively distinct fields. keep redundant data to a minimum
 - Data integrity is imposed at the field, table and relationship levels
@@ -58,15 +60,15 @@
 	- provide valid and accurate information
 - The database lends itself to the future growth
 
-#### Benefits of good design
+### Benefits of good design
 - save time
 - the data structure easy to modify and maintain
 - The data is easy to modify
 - information is easy retrieve
 - end-user applications are easy to develop and build. We can spend more time on programming and addressing the data manipulation tasks at hand 
 
-#### Database design methods
-##### Traditional Design methods
+### Database design methods
+#### Traditional Design methods
 - traditional methods have three phases:  requirement analysis, data modeling, and normalization
 	- requirement analysis
 		- an examination of business being modeled, interviewed with users and management to access the current system and to analyze future needs, and an assessment of information requirement for the business as a whole
