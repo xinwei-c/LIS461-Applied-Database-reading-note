@@ -1,6 +1,6 @@
-- importance of finishing design process
+# importance of finishing design process
 	- the level of structural integrity and data integrity in the database is proportional to how thoroughly you follow the design process
-- define a mission statement and mission objectives
+## define a mission statement and mission objectives
 	- first phase in database design 
 		- mission statement
 		- mission objectives
@@ -10,7 +10,7 @@
 			- define the mission statement
 		- 2. developer, management personnel and the end user
 			- define the mission objectives
-- analyze the current database
+## analyze the current database
 	- second phase
 		- analyze the current database if exists
 			- legacy database or a paper-based database
@@ -22,7 +22,7 @@
 			- refine the list by removing all calculated fields and place them on the list
 			- will need the calculated field later in the design process
 		- send to users and management for a brief review and possible refinement
-- create the data structures
+## create the data structures
 	- third phase
 		- define tables and fields, establish keys, and define field specifications for every field
 		- tables are the first structures defined in the database
@@ -33,11 +33,11 @@
 		- check the work you performed on the fields to ensure tat each table structure is properly defined
 	- establish the appropriate keys for each table
 	- establish field specifications for each field in the database
-- Determine and establish table relationship
+## Determine and establish table relationship
 	- fourth stage
 		- gain interviews from user testing and identify relationships among the data
 		- establish a logical connection between tables with a primary key or with a linking table
-- Determine and define business rules
+## Determine and define business rules
 	- fifth stage
 		- conduct interviews, identify limitations, establish business rules, and define and implement validation tables
 			- the interview will reveal specific limitations on various aspects of the database
@@ -45,13 +45,13 @@
 		- define the implement validation tables
 			- ensure the consistency and validity of the values stored
 			- ongoing and iterative process
-- Determining and define views
+## Determining and define views
 	- sixth phase
 		- conduct interviews
 		- identify the types of views
 			- users may require detailed information to perform their work, whereas others need only summary information to help them make strategic decisions.
 		- define the views identified during the interview process
-- Review the data integrity
+# Review the data integrity
 	- review each table to ensure that it meets the criteria of a properly designed table and check the fields within each table for proper structure
 	- review and check field specifications for each field
 		- make necessary refinement to the fields and then check field-level integrity
