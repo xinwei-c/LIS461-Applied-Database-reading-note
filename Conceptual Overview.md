@@ -1,5 +1,5 @@
 # importance of finishing design process
-	- the level of structural integrity and data integrity in the database is proportional to how thoroughly you follow the design process
+- the level of structural integrity and data integrity in the database is proportional to how thoroughly you follow the design process
 ## define a mission statement and mission objectives
 - first phase in database design 
 	- mission statement
@@ -46,14 +46,14 @@
 		- ensure the consistency and validity of the values stored
 		- ongoing and iterative process
 ## Determining and define views
-	- sixth phase
-		- conduct interviews
-		- identify the types of views
-			- users may require detailed information to perform their work, whereas others need only summary information to help them make strategic decisions.
-		- define the views identified during the interview process
+- sixth phase
+	- conduct interviews
+	- identify the types of views
+		- users may require detailed information to perform their work, whereas others need only summary information to help them make strategic decisions.
+	- define the views identified during the interview process
 # Review the data integrity
-	- review each table to ensure that it meets the criteria of a properly designed table and check the fields within each table for proper structure
-	- review and check field specifications for each field
-		- make necessary refinement to the fields and then check field-level integrity
-	- review the validity of each relationship, confirm the relationship type and confirm the participation characteristics.
-	- review the business rule identified earlier in the database design process and confirm the constraints
+- review each table to ensure that it meets the criteria of a properly designed table and check the fields within each table for proper structure
+- review and check field specifications for each field
+	- make necessary refinement to the fields and then check field-level integrity
+- review the validity of each relationship, confirm the relationship type and confirm the participation characteristics.
+- review the business rule identified earlier in the database design process and confirm the constraints
